@@ -5,9 +5,9 @@ var body_parser = require('body-parser');
 
 var router=express.Router();
 var connection=mysql.createConnection({
-    'host' : 'awsrds.chw0idizaakm.us-west-2.rds.amazonaws.com',
-	'user' : 'user',
-	'password' : 'wlfkf330',
+	  'host' : ,
+	'user' : ,
+	'password' :,
 	'database' : 'sopt',
 });
 
