@@ -5,10 +5,10 @@ var body_parser = require('body-parser');
 
 var router=express.Router();
 var connection=mysql.createConnection({
-	  'host' : ,
-	'user' : ,
-	'password' :,
-	'database' : 'sopt',
+	 'host' : 
+	 'user' : 
+	'password' :
+	'database' :
 });
 
 router.get('/:user_id',function(request,response,next){
